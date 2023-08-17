@@ -1,0 +1,89 @@
+/***
+
+CUSTOM CSS STYLESHEET
+
+**/
+/* .menu {
+
+    background-color: midnightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80px;
+    z-index: 9999;
+} */
+/* the root element it's used for <html> tag with hight priority
+   for example top declaring a new color variable (also used in bootstrap framework)
+   ex: 
+*/
+:root {
+  --blue2: #191970;
+  --mainblue: #2541B2;
+  --darkblue: #03256C;
+  --darkenblue: #1768AC;
+  --lightblue: #06BEE1;
+  --violet: #34276d;
+  --white: #FFFFFF;
+}
+
+.menu {
+  background-color: var(--mainblue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  vertical-align: top;
+}
+.menu a:hover {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.menu-item > li:first-child {
+  margin-left: 0;
+}
+.menu-item > li:last-child {
+  margin-right: 0;
+}
+
+.icon-spaced {
+  margin-right: 10px;
+}
+
+section {
+  margin-top: 120px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--white);
+  text-align: center;
+}
+
+.h1-container {
+  display: block;
+  background-color: var(--darkblue);
+  padding: 15px 0px;
+  margin-top: 2vh;
+}
+
+.gallery-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
